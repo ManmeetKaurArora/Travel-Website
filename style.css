@@ -1,0 +1,172 @@
+/* Navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2A9D8F;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #23867a;
+}
+
+/* Hero */
+#hero {
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e") center/cover no-repeat;
+  color: white;
+  padding: 80px 20px;
+}
+
+#start {
+  font-size: 18px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #2A9D8F;
+  color: white;
+  cursor: pointer;
+}
+
+#start:hover {
+  background-color: #23867a;
+}
+
+/* Destinations */
+#destinations {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#destinations div {
+  margin-bottom: 40px;
+}
+
+#Australia, #Philippines, #Singapore {
+  height: 40%;
+  width: 45%;
+  margin-top: 3%;
+  border-radius: 10%;
+}
+
+#au, #ph, #si {
+  margin-top: 10px;
+}
+
+.by {
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  padding: 8px 16px;
+  background-color: #2A9D8F;
+  color: white;
+}
+
+.by:hover {
+  background-color: #23867a;
+}
+
+
+#op {
+  margin-top: -200px;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* News */
+#news {
+  margin: 60px;
+  text-align: center;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* About */
+#about {
+  margin: 50px;
+  text-align: center;
+}
+
+/* Contact Page */
+#contactPage {
+  background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1500&q=80") center/cover no-repeat;
+  min-height: 100vh;
+  text-align: center;
+  padding: 50px 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+#contactPage h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  background-color: rgba(0,0,0,0.6);
+  display: inline-block;
+  padding: 6px 15px;
+  border-radius: 5px;
+}
+
+#contactPage form {
+  background-color: rgba(0,0,0,0.6);
+  padding: 40px;
+  border-radius: 8px;
+  width: 350px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#contactPage input,
+#contactPage textarea,
+#contactPage select {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#contactPage textarea {
+  resize: none;
+}
+
+#send {
+  width: 100%;
+  padding: 10px;
+  background-color: #2A9D8F;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#send:hover {
+  background-color: #23867a;
+}
+
+footer {
+  text-align: center;
+  background-color: #2A9D8F;
+  color: white;
+  padding: 10px;
+  margin-top: 50px;
+}
